@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #A9CB38;
+}
+
+.container {
+    width: 100%;
+
+}
+
+form {
+    width: 30%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 135px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container form .img img{
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.container form .img p{
+   text-align: center;
+   color: gray;
+   margin-top: -5px;
+   font-size: 35px;
+}
+
+.container form .h{
+    text-align: center;
+    margin-top: 19px;
+    font-size: 25px;
+    color: #3B77E4;
+}
+
+.container form .form {
+    margin-top: 25px;
+}
+
+.container form .form-group input {
+    width: 80%;
+    padding: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+    background: #EEEEEE;
+}
+
+
+.container form button {
+    width: 80%;
+    padding: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0077FF;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container form div p {
+    text-align: center;
+    margin-top: 20px;
+    color: #0077FF;
+    font-weight: bold;
+}
+
+.container form .new ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+.container form .new ul a{
+    color: #0077FF;
+}
